@@ -77,6 +77,32 @@ nav.scrolled { box-shadow: 0 2px 28px rgba(255,94,26,.10); }
 }
 .nav-cta:hover { background: var(--blue-dark); transform: translateY(-1px); }
 
+/* ── LANGUAGE TOGGLE ── */
+.nav-right { display: flex; align-items: center; gap: .75rem; }
+.lang-toggle {
+  background: transparent;
+  border: 1.5px solid var(--gray-200);
+  color: var(--gray-600);
+  padding: .38rem .8rem;
+  border-radius: 7px;
+  font-family: var(--font-head);
+  font-size: .78rem; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color .2s, color .2s, background .2s;
+  display: flex; align-items: center; gap: .4rem;
+}
+.lang-toggle:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: var(--orange-dim);
+}
+.lang-toggle svg {
+  width: 13px; height: 13px;
+  stroke: currentColor; fill: none;
+  stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+}
+
 /* ── HERO ── */
 .hero {
   min-height: 100vh; padding: 70px 6% 0;
