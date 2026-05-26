@@ -797,6 +797,10 @@ footer { background: var(--black); color: rgba(255,255,255,.52); padding: 3.8rem
   .fgrid { grid-template-columns: 1fr 1fr; gap: 2rem; }
   .fgrid > div:first-child { grid-column: 1 / -1; }
   .f-desc { max-width: 100%; }
+  .dc-grid {
+  grid-template-columns: 1fr !important;
+  gap: 2.5rem !important;
+}
 }
 
 /* ── 600px: large phones ── */
