@@ -127,84 +127,126 @@
     <p class="ssub reveal">Choose the right device for your power monitoring needs. Both models feature Eneron's patented non-invasive technology.</p>
   </div>
   <div class="catalog-grid">
+ 
+    <!-- ── Single Phase ── -->
     <div class="prod-card reveal">
-      <div class="prod-badge-wrap"><span class="prod-badge">1 Phase (symmetric)</span></div>
+      <div class="prod-badge-wrap">
+        <span class="prod-badge">1 Phase (symmetric)</span>
+      </div>
       <div class="prod-image-wrap">
-        <svg class="prod-device-svg" viewBox="0 0 280 190" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="sg1" x1="20" y1="50" x2="185" y2="145" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#eceff4"/><stop offset="100%" stop-color="#d4dae4"/></linearGradient></defs>
-          <rect x="20" y="55" width="165" height="88" rx="13" fill="url(#sg1)"/>
-          <path d="M20 68Q20 55 33 55L172 55Q185 55 185 68L185 71Q185 58 172 58L33 58Q20 58 20 71Z" fill="#f5f7fa"/>
-          <path d="M185 55Q198 55 198 68L198 131Q198 143 185 143L185 55Z" fill="#bec5d0"/>
-          <ellipse cx="164" cy="55" rx="9" ry="9" fill="#cdd3de"/>
-          <ellipse cx="164" cy="53" rx="7.5" ry="7.5" fill="#b8bfcc"/>
-          <text x="55" y="106" font-family="monospace" font-size="9" fill="#8898b0" letter-spacing="2.5" font-weight="600">ENERON</text>
-          <rect x="172" y="80" width="5" height="20" rx="2.5" fill="#16a34a" opacity=".9"/>
-          <rect x="172" y="104" width="5" height="11" rx="2.5" fill="#ff5e1a" opacity=".75"/>
-          <rect x="26" y="110" width="15" height="9" rx="2" fill="#aab2c0"/>
-          <path d="M75 143Q75 165 75 182" stroke="#9ca3af" stroke-width="5" stroke-linecap="round"/>
-          <path d="M97 143Q97 165 97 182" stroke="#9ca3af" stroke-width="5" stroke-linecap="round"/>
+        <img src="/assets/eneron.png" alt="Eneron Single Phase Device" class="prod-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <!-- SVG fallback -->
+        <svg class="prod-device-svg prod-svg-fallback" viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="sg1" x1="30" y1="40" x2="240" y2="160" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#e8ecf2"/><stop offset="100%" stop-color="#cdd4e0"/></linearGradient></defs>
+          <rect x="30" y="55" width="200" height="100" rx="14" fill="url(#sg1)"/>
+          <path d="M30 69Q30 55 44 55L216 55Q230 55 230 69L230 73Q230 59 216 59L44 59Q30 59 30 73Z" fill="#f4f6fa"/>
+          <path d="M230 55Q246 55 246 69L246 141Q246 155 230 155L230 55Z" fill="#bbc2ce"/>
+          <ellipse cx="208" cy="55" rx="10" ry="10" fill="#cdd4de"/>
+          <ellipse cx="208" cy="53" rx="8.5" ry="8.5" fill="#b5beca"/>
+          <text x="72" y="114" font-family="monospace" font-size="10" fill="#8898b2" letter-spacing="3" font-weight="600">ENERON</text>
+          <rect x="218" y="82" width="6" height="24" rx="3" fill="#16a34a" opacity=".95"/>
+          <rect x="218" y="110" width="6" height="14" rx="3" fill="#ff5e1a" opacity=".8"/>
+          <rect x="36" y="122" width="18" height="10" rx="2.5" fill="#a8b0be"/>
+          <path d="M95 155Q95 176 95 192" stroke="#9ca3af" stroke-width="5.5" stroke-linecap="round"/>
+          <path d="M118 155Q118 176 118 192" stroke="#9ca3af" stroke-width="5.5" stroke-linecap="round"/>
         </svg>
       </div>
       <div class="prod-info">
         <h3>Single Phase Device</h3>
         <p class="prod-sub">Multicore Cable or Single Wire</p>
-        <div class="prod-specs">
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Current: 0.25 A – 250 A</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Voltage range: Unlimited</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>Battery life: Up to 1 year</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Wi-Fi 2.4 GHz · Cloud sync</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>81 × 46 × 48 mm · 150 g</div>
+        <div class="prod-spec-table">
+          <div class="pst-row"><span class="pst-label">Cable type</span><span class="pst-value">SO, SOOW, SOJ</span></div>
+          <div class="pst-row"><span class="pst-label">Cable size</span><span class="pst-value">6–22mm · 22–45mm · 45mm+</span></div>
+          <div class="pst-row"><span class="pst-label">Voltage range</span><span class="pst-value">10V – 300V</span></div>
+          <div class="pst-row"><span class="pst-label">Voltage Resolution</span><span class="pst-value">300mV</span></div>
+          <div class="pst-row"><span class="pst-label">Current range</span><span class="pst-value">60mA – 100A</span></div>
+          <div class="pst-row"><span class="pst-label">Current resolution</span><span class="pst-value">20mA</span></div>
+          <div class="pst-row"><span class="pst-label">Current Precision</span><span class="pst-value pst-bold">Wire - 1%, Cable - 5%</span></div>
+          <div class="pst-row"><span class="pst-label">Power Factor</span><span class="pst-value">0–1</span></div>
+          <div class="pst-row"><span class="pst-label">Frequency</span><span class="pst-value">50Hz – 60Hz</span></div>
+          <div class="pst-row"><span class="pst-label">Battery</span><span class="pst-value pst-bold">Rechargeable Li, Solar</span></div>
+          <div class="pst-row"><span class="pst-label">Battery Life</span><span class="pst-value pst-bold">Up to 1 year</span></div>
+          <div class="pst-row"><span class="pst-label">Communication</span><span class="pst-value pst-bold">Wifi, Lora WAN, LTE, HiLow</span></div>
+          <div class="pst-row"><span class="pst-label">Voltage type</span><span class="pst-value pst-bold">AC</span></div>
         </div>
-        <a href="#cta" class="prod-cta"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 10.91a16 16 0 005 5l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Request Wholesale Quote</a>
+        <a href="#cta" class="prod-cta">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 10.91a16 16 0 005 5l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Request Wholesale Quote
+        </a>
       </div>
     </div>
+ 
+    <!-- ── 3 Phase ── -->
     <div class="prod-card reveal">
-      <div class="prod-badge-wrap"><span class="prod-badge">1 – 3 Phase (symmetric)</span></div>
+      <div class="prod-badge-wrap">
+        <span class="prod-badge">1 – 3 Phase (symmetric)</span>
+      </div>
       <div class="prod-image-wrap">
-        <svg class="prod-device-svg" viewBox="0 0 280 190" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="tg1" x1="15" y1="85" x2="165" y2="160" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#eceff4"/><stop offset="100%" stop-color="#d0d6e0"/></linearGradient></defs>
-          <rect x="15" y="85" width="145" height="72" rx="10" fill="url(#tg1)"/>
-          <path d="M15 95Q15 85 25 85L150 85Q160 85 160 95L160 98Q160 88 150 88L25 88Q15 88 15 98Z" fill="#f5f7fa"/>
-          <path d="M160 85Q170 85 170 95L170 147Q170 157 160 157L160 85Z" fill="#bec5ce"/>
-          <line x1="152" y1="85" x2="152" y2="52" stroke="#b0b8c4" stroke-width="3.5" stroke-linecap="round"/>
-          <circle cx="152" cy="50" r="4" fill="#9aa3b0"/>
-          <text x="38" y="128" font-family="monospace" font-size="8" fill="#8898b0" letter-spacing="2" font-weight="600">ENERON</text>
-          <rect x="156" y="97" width="5" height="18" rx="2.5" fill="#16a34a" opacity=".9"/>
-          <ellipse cx="82" cy="58" rx="23" ry="17" fill="#cdd3dc" stroke="#bec5ce" stroke-width="1.5"/>
-          <ellipse cx="82" cy="58" rx="15" ry="11" fill="#bac0cc"/>
-          <ellipse cx="82" cy="58" rx="7" ry="5.5" fill="#a8aeba"/>
-          <ellipse cx="122" cy="47" rx="21" ry="16" fill="#cdd3dc" stroke="#bec5ce" stroke-width="1.5"/>
-          <ellipse cx="122" cy="47" rx="13" ry="10" fill="#bac0cc"/>
-          <ellipse cx="122" cy="47" rx="6" ry="4.5" fill="#a8aeba"/>
-          <ellipse cx="160" cy="57" rx="21" ry="16" fill="#cdd3dc" stroke="#bec5ce" stroke-width="1.5"/>
-          <ellipse cx="160" cy="57" rx="13" ry="10" fill="#bac0cc"/>
-          <ellipse cx="160" cy="57" rx="6" ry="4.5" fill="#a8aeba"/>
-          <path d="M80 75Q80 85 95 85" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <path d="M122 62Q122 75 115 85" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <path d="M158 73Q154 80 140 85" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <line x1="66" y1="58" x2="60" y2="66" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
-          <line x1="69" y1="61" x2="63" y2="69" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
-          <line x1="72" y1="63" x2="66" y2="71" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
-          <path d="M48 157Q48 172 48 182" stroke="#9ca3af" stroke-width="5" stroke-linecap="round"/>
-          <path d="M66 157Q66 172 66 182" stroke="#9ca3af" stroke-width="5" stroke-linecap="round"/>
+        <img src="/assets/eneron-3phase.png" alt="Eneron 3 Phase Device" class="prod-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <!-- SVG fallback -->
+        <svg class="prod-device-svg prod-svg-fallback" viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="tg1" x1="20" y1="90" x2="190" y2="175" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#e8ecf2"/><stop offset="100%" stop-color="#cdd4e0"/></linearGradient></defs>
+          <rect x="20" y="96" width="168" height="82" rx="12" fill="url(#tg1)"/>
+          <path d="M20 108Q20 96 32 96L176 96Q188 96 188 108L188 112Q188 100 176 100L32 100Q20 100 20 112Z" fill="#f4f6fa"/>
+          <path d="M188 96Q200 96 200 108L200 168Q200 178 188 178L188 96Z" fill="#bbc2ce"/>
+          <line x1="178" y1="96" x2="178" y2="60" stroke="#aab2c0" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="178" cy="57" r="5" fill="#9aa3b0"/>
+          <text x="46" y="144" font-family="monospace" font-size="9" fill="#8898b2" letter-spacing="2.2" font-weight="600">ENERON</text>
+          <rect x="182" y="110" width="6" height="20" rx="3" fill="#16a34a" opacity=".95"/>
+          <!-- Clamp 1 -->
+          <ellipse cx="96" cy="62" rx="26" ry="19" fill="#cdd4dc" stroke="#bcc3ce" stroke-width="1.5"/>
+          <ellipse cx="96" cy="62" rx="17" ry="12" fill="#b8c0cc"/>
+          <ellipse cx="96" cy="62" rx="8" ry="6" fill="#a6aeba"/>
+          <!-- Clamp 2 -->
+          <ellipse cx="144" cy="50" rx="24" ry="18" fill="#cdd4dc" stroke="#bcc3ce" stroke-width="1.5"/>
+          <ellipse cx="144" cy="50" rx="15" ry="11" fill="#b8c0cc"/>
+          <ellipse cx="144" cy="50" rx="7" ry="5" fill="#a6aeba"/>
+          <!-- Clamp 3 -->
+          <ellipse cx="186" cy="62" rx="24" ry="18" fill="#cdd4dc" stroke="#bcc3ce" stroke-width="1.5"/>
+          <ellipse cx="186" cy="62" rx="15" ry="11" fill="#b8c0cc"/>
+          <ellipse cx="186" cy="62" rx="7" ry="5" fill="#a6aeba"/>
+          <!-- Cables clamp→base -->
+          <path d="M94 81Q94 96 112 96" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <path d="M144 67Q144 82 136 96" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <path d="M184 80Q180 90 165 96" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <!-- Copper wire tips -->
+          <line x1="78" y1="62" x2="71" y2="71" stroke="#b45309" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="81" y1="66" x2="74" y2="75" stroke="#b45309" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="84" y1="69" x2="77" y2="78" stroke="#b45309" stroke-width="2.2" stroke-linecap="round"/>
+          <!-- Output cables -->
+          <path d="M58 178Q58 188 58 196" stroke="#9ca3af" stroke-width="5.5" stroke-linecap="round"/>
+          <path d="M78 178Q78 188 78 196" stroke="#9ca3af" stroke-width="5.5" stroke-linecap="round"/>
         </svg>
       </div>
       <div class="prod-info">
         <h3>3 Phase Device</h3>
         <p class="prod-sub">Multicore Cable or Single Wire</p>
-        <div class="prod-specs">
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Current: 0.25 A – 250 A per phase</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Voltage range: Unlimited</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>Battery life: Up to 1 year</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Wi-Fi 2.4 GHz · Cloud sync</div>
-          <div class="prod-spec-row"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>3 independent CT clamp sensors</div>
+        <div class="prod-spec-table">
+          <div class="pst-row"><span class="pst-label">Cable type</span><span class="pst-value">SO, SOOW, SOJ</span></div>
+          <div class="pst-row"><span class="pst-label">Cable size</span><span class="pst-value">6mm – 50mm</span></div>
+          <div class="pst-row"><span class="pst-label">Voltage range</span><span class="pst-value">10V – 1000V</span></div>
+          <div class="pst-row"><span class="pst-label">Voltage Resolution</span><span class="pst-value">300mV</span></div>
+          <div class="pst-row"><span class="pst-label">Current range</span><span class="pst-value">60mA – 1000A</span></div>
+          <div class="pst-row"><span class="pst-label">Current resolution</span><span class="pst-value">20mA</span></div>
+          <div class="pst-row"><span class="pst-label">Current Precision</span><span class="pst-value pst-bold">Wire - 1%, Cable - 5%</span></div>
+          <div class="pst-row"><span class="pst-label">Power Factor</span><span class="pst-value">0–1</span></div>
+          <div class="pst-row"><span class="pst-label">Frequency</span><span class="pst-value">50Hz – 60Hz</span></div>
+          <div class="pst-row"><span class="pst-label">Battery</span><span class="pst-value pst-bold">Rechargeable Li, Solar</span></div>
+          <div class="pst-row"><span class="pst-label">Battery Life</span><span class="pst-value pst-bold">Up to 1 year</span></div>
+          <div class="pst-row"><span class="pst-label">Communication</span><span class="pst-value pst-bold">Wifi, Lora WAN, LTE, HiLow</span></div>
+          <div class="pst-row"><span class="pst-label">Voltage type</span><span class="pst-value pst-bold">AC</span></div>
         </div>
-        <a href="#cta" class="prod-cta"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 10.91a16 16 0 005 5l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Request Wholesale Quote</a>
+        <a href="#cta" class="prod-cta">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 10.91a16 16 0 005 5l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Request Wholesale Quote
+        </a>
       </div>
     </div>
+ 
   </div>
 </section>
-
 <section id="datacenter" style="background:#0a0a0a; padding:92px 6%;">
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;">
     <div>
@@ -451,8 +493,7 @@
       </div>
     </div>
     <div class="phone-wrap reveal">
-      <div class="ph-frame"><div class="ph-notch"></div><div class="ph-screen"><div class="ph-hdr"><span>ENERON</span><div class="ph-live"><div class="ph-dot"></div>Live</div></div><div class="ph-title">Equipment Overview</div><div class="ph-g"><div class="ph-c"><div class="ph-cv">15.3 kW</div><div class="ph-ck">Active Power</div></div><div class="ph-c"><div class="ph-cv">118 A</div><div class="ph-ck">Current</div></div><div class="ph-c"><div class="ph-cv">220 V</div><div class="ph-ck">Voltage</div></div><div class="ph-c"><div class="ph-cv">0.92</div><div class="ph-ck">Power Factor</div></div></div><div class="ph-wave"><svg viewBox="0 0 225 44" width="100%" height="100%" preserveAspectRatio="none"><polyline points="0,22 14,6 28,36 42,13 56,31 70,8 84,34 98,18 112,28 126,7 140,32 154,16 168,26 182,10 196,24 225,22" fill="none" stroke="#ff5e1a" stroke-width="1.8" opacity=".88"><animate attributeName="points" dur="3s" repeatCount="indefinite" values="0,22 14,6 28,36 42,13 56,31 70,8 84,34 98,18 112,28 126,7 140,32 154,16 168,26 182,10 196,24 225,22;0,22 14,34 28,10 42,30 56,16 70,35 84,12 98,29 112,13 126,36 140,18 154,32 168,10 182,34 196,14 225,22;0,22 14,6 28,36 42,13 56,31 70,8 84,34 98,18 112,28 126,7 140,32 154,16 168,26 182,10 196,24 225,22"/></polyline></svg></div><div class="ph-alert"><div class="ph-adot"></div><span>Motor #3 — All systems normal</span></div></div></div>
-      <div class="ph-float"><div class="ph-fv">24/7</div><div class="ph-fl">Monitoring</div></div>
+  <img src="/assets/screenapp.png"/>
     </div>
   </div>
 </section>
@@ -514,7 +555,7 @@
     <div class="fc-col"><h4>Platform</h4><ul><li><a href="https://my.eneron.ai" target="_blank">Web Dashboard</a></li><li><a href="https://apps.apple.com/mx/app/eneron/id1555413932" target="_blank">iOS App</a></li><li><a href="#app">Android App</a></li><li><a href="https://eneron.ai" target="_blank">eneron.ai</a></li></ul></div>
     <div class="fc-col"><h4>Zac Tech Semi</h4><ul><li><a href="https://www.zacsemi.com.mx" target="_blank">zacsemi.com.mx</a></li><li><a href="mailto:ztsmex@zacsemi.com.mx">ztsmex@zacsemi.com.mx</a></li><li><a href="#">Zacatecas, Mexico</a></li><li><a href="#">Fremont, CA — USA</a></li></ul></div>
   </div>
-  <div class="f-bottom"><span>© 2024 Zac Tech Semi — Tech Meol Group. Eneron is a trademark of Eneron Corporation. Patent Pending.</span><a href="https://eneron.ai" target="_blank">eneron.ai</a></div>
+  <div class="f-bottom"><span>© 2026 Zac Tech Semi — Tech Meol Group. Eneron is a trademark of Eneron Corporation. Patent Pending.</span></div>
 </footer>
 
 <script>
