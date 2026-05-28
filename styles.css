@@ -222,7 +222,7 @@
     color: rgba(11,31,58,0.03); line-height: 1; pointer-events: none; user-select: none;
   }
   .immex-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-  .immex-img { width: 100%; aspect-ratio: 3/2; object-fit: cover; border-radius: 2px; }
+  .immex-img { width: 100%; aspect-ratio: 3/3; object-fit: cover; border-radius: 2px; }
   .immex-benefits { display: flex; flex-direction: column; gap: 20px; margin-top: 36px; }
   .immex-benefit { display: flex; gap: 16px; align-items: flex-start; padding: 20px 24px; border: 1px solid var(--gray-100); border-radius: 2px; transition: border-color 0.2s; }
   .immex-benefit:hover { border-color: var(--gold); }
@@ -280,7 +280,7 @@
   /* CUSTOMS */
   .customs { background: var(--white); }
   .customs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
-  .customs-img { width: 100%; aspect-ratio: 3/2; object-fit: cover; border-radius: 2px; }
+  .customs-img { width: 100%; aspect-ratio: 3/3; object-fit: cover; border-radius: 2px; }
   .customs-steps { display: flex; flex-direction: column; gap: 0; }
   .customs-step { display: flex; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--gray-100); }
   .customs-step:last-child { border-bottom: none; }
@@ -317,7 +317,7 @@
   .special-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
   .special-card { background: var(--white); border-radius: 2px; overflow: hidden; border: 1px solid var(--gray-100); transition: all 0.3s; }
   .special-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(11,31,58,0.1); }
-  .special-card-img { width: 100%; height: 200px; object-fit: cover; display: block; }
+  .special-card-img { width: 100%; height: 300px; object-fit: cover; display: block; }
   .special-card-body { padding: 28px; }
   .special-card-label { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; display: block; }
   .special-card h3 { font-family: var(--font-display); font-size: 22px; font-weight: 600; color: var(--navy); margin-bottom: 12px; line-height: 1.2; }
